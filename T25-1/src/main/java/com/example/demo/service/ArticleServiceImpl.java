@@ -11,7 +11,7 @@ import com.example.demo.dto.Article;
 @Service
 public class ArticleServiceImpl implements IArticleService {
 	
-	//Utilizamos los metodos de la interface IManufacturerDAO, es como si instaciaramos.
+	//Utilizamos los metodos de la interface IArticleDAO, es como si instaciaramos.
 	@Autowired
 	IArticleDAO iArticleDAO;
 	

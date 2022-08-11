@@ -9,12 +9,12 @@ public interface IArticleService {
 	//Metodos del CRUD
 			public List<Article> listArticle(); //Listar All 
 			
-			public Article saveArticle(Article manufacturer);	//Guarda un manufacturer CREATE
+			public Article saveArticle(Article manufacturer);	//Guarda un article CREATE
 			
-			public Article articleXID(Long id); //Leer datos de un manufacturer READ
+			public Article articleXID(Long id); //Leer datos de un article READ
 			
-			public Article updateArticle(Article manufacturer); //Actualiza datos del manufacturer UPDATE
+			public Article updateArticle(Article manufacturer); //Actualiza datos del article UPDATE
 			
-			public void deleteArticle(Long id);// Elimina el manufacturer DELETE
+			public void deleteArticle(Long id);// Elimina el article DELETE
 
 }
