@@ -36,13 +36,13 @@ public class ArticleController {
 	@GetMapping("/article/{id}")
 	public Article articleXID(@PathVariable(name="id") Long id) {
 		
-		Article manufacturer_xid= new Article();
+		Article article_xid= new Article();
 		
-		manufacturer_xid=articleservideImpl.articleXID(id);
+		article_xid=articleservideImpl.articleXID(id);
 		
-		System.out.println("Manufacturer XID: "+manufacturer_xid);
+		System.out.println("Article XID: "+article_xid);
 		
-		return manufacturer_xid;
+		return article_xid;
 	}
 	
 	@PutMapping("/article/{id}")
