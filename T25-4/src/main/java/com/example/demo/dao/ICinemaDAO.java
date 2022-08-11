@@ -1,5 +1,10 @@
 package com.example.demo.dao;
 
-public interface ICinemaDAO {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.demo.dto.Cinema;
+
+
+public interface ICinemaDAO  extends JpaRepository<Cinema, Long> {
 
 }

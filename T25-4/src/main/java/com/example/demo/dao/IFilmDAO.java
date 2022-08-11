@@ -1,5 +1,9 @@
 package com.example.demo.dao;
 
-public interface IFilmDAO {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.demo.dto.Film;
+
+public interface IFilmDAO extends JpaRepository<Film, Long>{
 
 }
