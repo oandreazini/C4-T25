@@ -1,5 +1,9 @@
 package com.example.demo.dao;
 
-public interface IWarehouseDAO {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.demo.dto.Warehouse;
+
+public interface IWarehouseDAO  extends JpaRepository<Warehouse, Long> {
 
 }
