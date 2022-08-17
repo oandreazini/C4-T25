@@ -6,26 +6,26 @@ Demo API REST creada con Spring Tool Suite 4  utilizando varias entidades ER y c
 H2.
 ```
 
-#### 2. Link a un demo con el proyecto desplegado: https://c25-1.herokuapp.com/
+#### 2. Link a un demo con el proyecto desplegado: https://c4-t25-2.herokuapp.com
 
 ```
 * Nombre de la App: [HEROKU] (https://dashboard.heroku.com/)
 ```
 #### 3. URIs endpoints.
 ```
-Articulos
-GET       /api/article
-POST      /api/article
-GET       /api/article/{id}
-PUT       /api/article/{id}
-DELETE    /api/article/{id}
+Employees
+GET       /api/employees
+POST      /api/employees
+GET       /api/employees/{id}
+PUT       /api/employees/{id}
+DELETE    /api/employees/{id}
 
-Fabricantes
-GET       /api/manufacturer
-POST      /api/manufacturer
-GET       /api/manufacturer/{id}
-PUT       /api/manufacturer/{id}
-DELETE    /api/manufacturer/{id}
+Departments
+GET       /api/departments
+POST      /api/departments
+GET       /api/departments/{id}
+PUT       /api/departments/{id}
+DELETE    /api/departments/{id}
 ```
 
 #### 5. Screenshot imagen que indique cómo debe verse el proyecto.
